@@ -13,3 +13,11 @@ docker-compose run node yarn
 ```
 docker-compose up
 ```
+
+## Assets precompile
+
+
+```
+docker-compose run --rm app bundle exec rails assets:precompile
+```
+
